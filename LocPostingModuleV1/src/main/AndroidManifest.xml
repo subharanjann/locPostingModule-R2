@@ -17,17 +17,15 @@
 
     <application>
         <activity
-            android:name=".presentation.activity.PutawayCompletion"
+            android:name="com.swms.locpostingmoduleV1.presentation.activity.LocPostingStarterActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.activity.BinPutawayCompletion"
+            android:name="com.swms.locpostingmoduleV1.presentation.activity.BinPutawayCompletion"
             android:exported="false" />
         <activity
-            android:name=".presentation.activity.ItemPutawayCompletion"
+            android:name="com.swms.locpostingmoduleV1.presentation.activity.ItemPutawayCompletion"
             android:exported="false" />
-        <activity
-            android:name=".presentation.activity.LocPostingStarterActivity"
-            android:exported="false" />
+
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:screenOrientation="portrait"
