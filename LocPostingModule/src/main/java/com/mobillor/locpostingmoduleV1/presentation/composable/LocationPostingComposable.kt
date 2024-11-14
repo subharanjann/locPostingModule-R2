@@ -38,6 +38,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.mobillor.locpostingmodule.R
 import com.mobillor.locpostingmoduleV1.presentation.commonComposables.DashedLine
 import com.mobillor.locpostingmoduleV1.presentation.commonComposables.TextStyles
 import androidx.compose.foundation.lazy.items
@@ -47,7 +48,6 @@ import com.mobillor.locpostingmoduleV1.presentation.viewModel.BinPutawayCompleti
 import com.mobillor.locpostingmoduleV1.presentation.viewModel.ItemPutawayCompletionVm
 import com.mobillor.locpostingmoduleV1.presentation.viewModel.PalletPutawayCompletionVm
 import com.mobillor.locpostingmoduleV1.presentation.viewModel.PalletScanVm
-import com.mobillor.locpostingmoduleV1.R
 import com.mobillor.locpostingmoduleV1.data.model.DataResponseBinInfo
 import com.mobillor.locpostingmoduleV1.data.model.DataResponseItemInfo
 import com.mobillor.locpostingmoduleV1.data.model.DataResponseMappedToPallet

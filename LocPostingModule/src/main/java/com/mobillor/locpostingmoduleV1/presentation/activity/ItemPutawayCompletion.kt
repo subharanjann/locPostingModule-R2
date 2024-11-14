@@ -26,7 +26,8 @@ import com.journeyapps.barcodescanner.ScanContract
 import com.journeyapps.barcodescanner.ScanIntentResult
 import com.journeyapps.barcodescanner.ScanOptions
 import com.mobillor.goodsinwardmodule.data.apiclient.NewApiClient
-import com.mobillor.locpostingmoduleV1.R
+import com.mobillor.locpostingmodule.R
+
 import com.mobillor.locpostingmoduleV1.data.model.DataResponseItemInfo
 import com.mobillor.locpostingmoduleV1.data.model.InputMappedtoItem
 import com.mobillor.locpostingmoduleV1.data.repository.BinPutawayRepositoryImpl

@@ -6,7 +6,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import com.mobillor.locpostingmoduleV1.R
+import com.mobillor.locpostingmodule.R
 import com.mobillor.locpostingmoduleV1.presentation.commonComposables.ui.theme.darkGrey
 import com.mobillor.locpostingmoduleV1.presentation.commonComposables.ui.theme.darkMediumGrey
 import com.mobillor.locpostingmoduleV1.presentation.commonComposables.ui.theme.evenLighterRedStuff
