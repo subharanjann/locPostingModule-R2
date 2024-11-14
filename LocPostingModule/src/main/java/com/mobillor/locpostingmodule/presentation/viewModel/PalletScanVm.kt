@@ -55,7 +55,7 @@ class PalletScanVm(private val getPalletByIdUseCase: GetPalletByIdUseCase,
     fun dataCaller(typeSelected: Int, token : String,scannedId: String) {
         when (typeSelected) {
                 1 -> {
-                    getPalletById(token,scannedId)
+                    getBinById(token,scannedId)
                 }
                 2 -> {
                     getItemById(token,scannedId)

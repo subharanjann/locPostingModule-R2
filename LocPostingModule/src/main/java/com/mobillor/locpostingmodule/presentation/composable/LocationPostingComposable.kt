@@ -952,7 +952,7 @@ fun BinHintForItem(viewModel: ItemPutawayCompletionVm) {
         colors = CardDefaults.cardColors(containerColor = Color.White,),
         elevation = CardDefaults.cardElevation(8.dp),
         modifier = Modifier
-            .padding(0.dp),
+            .padding(top = 8.dp),
         shape = MaterialTheme.shapes.small
 
     ){
@@ -1121,7 +1121,6 @@ fun  LocationPostingBinFloatingButtonForItemPutaway(onClick: () -> Unit){
 }
 @Composable
 fun ColorChangingRow(
-    onText1Click: () -> Unit = {},
     onText2Click: () -> Unit = {},
     onText3Click: () -> Unit = {},
     viewModel: PalletScanVm
@@ -1132,28 +1131,10 @@ fun ColorChangingRow(
             .fillMaxWidth()
             .padding(8.dp)
     ) {
-        val color1 by viewModel::color1
+
         val color2 by viewModel::color2
         val color3 by viewModel::color3
 
-        Text(
-            text = "Pallet",
-            color = color1,
-            style = TextStyles.smallMediumNormalTextStyle,
-            textAlign = TextAlign.Center,
-            modifier = Modifier
-                .weight(1f)
-                .align(Alignment.CenterVertically)
-                .clickable {
-                    viewModel.changeColors(exceptIndex = 1)
-                    onText1Click()
-                }
-        )
-        VerticalDashedLine(
-            Modifier
-                .fillMaxHeight()
-                .align(Alignment.CenterVertically)
-        )
         Text(
             text = "Bin",
             color = color2,

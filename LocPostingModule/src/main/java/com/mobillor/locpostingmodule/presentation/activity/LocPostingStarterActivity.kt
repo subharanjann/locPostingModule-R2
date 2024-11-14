@@ -114,7 +114,7 @@ class LocPostingStarterActivity : BaseActivity() {
                 if(isExpanded){
                     ScanHintCard("Scan your choice !")
                     ColorChangingRow(
-                        onText1Click = {     typeSelected =1 },
+
                         onText2Click = {  typeSelected =3 },
                         onText3Click = {  typeSelected =2 },
                         viewModel
@@ -264,7 +264,7 @@ class LocPostingStarterActivity : BaseActivity() {
                         .padding(end = 16.dp)
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.binss),
+                        painter = painterResource(id = R.drawable.scansku),
                         contentDescription = null,
                         colorFilter = ColorFilter.tint(darkPurpleStuff),
                         modifier = Modifier.size(24.dp)
@@ -409,6 +409,7 @@ class LocPostingStarterActivity : BaseActivity() {
             if (result.contents != null) {
                 val scannedId = result.contents.toString()
                 Log.d("PalletScanRepositoryLogs","scanner called type = $typeSelected")
+                loadingPopup.show()
                 viewModel.dataCaller(typeSelected,this@LocPostingStarterActivity.userToken,scannedId)
 
             } else {

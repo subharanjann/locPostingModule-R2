@@ -115,14 +115,6 @@ class BinPutawayCompletion : BaseActivity() {
 
                         }
                     }
-                    Row(){
-                        LocationPostingPalletFloatingButtonForItemPutaway{
-                                QRCodeInputFromMobileCameraPallet()
-                            }
-                        Column(Modifier.width(12.dp)) {
-
-                        }
-                    }
                     Spacer(modifier = Modifier.height(6.dp))
 
                 }
@@ -148,13 +140,6 @@ class BinPutawayCompletion : BaseActivity() {
                         .padding(end = 8.dp)){
                     Spacer(Modifier.weight(1f))
                     LocationHintForBin(viewModel)
-                }
-                Row(
-                    Modifier
-                        .height(48.dp)
-                        .padding(end = 16.dp)){
-                    Spacer(Modifier.weight(1f))
-                    PalletHintForBin(viewModel)
                 }
                 LocationPostingBinInfoCard(card = binList?.get(0)?:DataResponseBinInfo("",0,"","","",0,0,0,0,0))
                 MappedToBinInfoList(viewModel)

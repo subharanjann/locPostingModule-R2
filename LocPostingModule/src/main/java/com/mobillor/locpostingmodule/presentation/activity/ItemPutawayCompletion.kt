@@ -131,7 +131,7 @@ class ItemPutawayCompletion : BaseActivity() {
         Column(
             Modifier
                 .fillMaxSize()
-                .padding(top = 40.dp)){
+                .padding(top = 0.dp)){
             TopNavigationBar(name = "Item Posting") {
                 onBackPressed()
             }
@@ -141,16 +141,10 @@ class ItemPutawayCompletion : BaseActivity() {
                     .padding(end = 8.dp)){
                 Spacer(Modifier.weight(1f))
                 LocationHintForItem(viewModel)
-            }
-            Row(
-                Modifier
-                    .height(48.dp)
-                    .padding(end = 16.dp)){
-                Spacer(Modifier.weight(1f))
-                PalletHintForItem(viewModel)
-                Spacer(modifier = Modifier.width(4.dp))
+
                 BinHintForItem(viewModel)
             }
+
             LocationPostingItemInfoListForItemPutaway(itemList?: emptyList())
 
 
@@ -163,7 +157,7 @@ class ItemPutawayCompletion : BaseActivity() {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = 32.dp, end = 0.dp),
+                    .padding(bottom = 24.dp, end = 0.dp),
                 contentAlignment = Alignment.BottomEnd
             ) {
                 Column (
@@ -172,14 +166,6 @@ class ItemPutawayCompletion : BaseActivity() {
                         LocationPostingLocationFloatingButtonForItemPutaway{
                                 QRCodeInputFromMobileCameraLocation()
                         }
-                        Column(Modifier.width(12.dp)) {
-
-                        }
-                    }
-                    Row(){
-                        LocationPostingPalletFloatingButtonForItemPutaway{
-                                QRCodeInputFromMobileCameraPallet()
-                            }
                         Column(Modifier.width(12.dp)) {
 
                         }
