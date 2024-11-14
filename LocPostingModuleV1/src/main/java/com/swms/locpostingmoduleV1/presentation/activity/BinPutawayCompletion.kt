@@ -25,7 +25,7 @@ import com.journeyapps.barcodescanner.ScanContract
 import com.journeyapps.barcodescanner.ScanIntentResult
 import com.journeyapps.barcodescanner.ScanOptions
 import com.swms.goodsinwardmodule.data.apiclient.NewApiClient
-import com.swms.locpostingmodule.R
+import com.mobillor.locpostingmodule.R
 
 import com.swms.locpostingmoduleV1.data.model.DataResponseBinInfo
 import com.swms.locpostingmoduleV1.data.model.InputMappedtoBin

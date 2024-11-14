@@ -63,7 +63,7 @@ import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
 
-import com.swms.locpostingmodule.R
+import com.mobillor.locpostingmodule.R
 import com.swms.locpostingmoduleV1.presentation.commonComposables.ui.theme.SEGMK3Theme
 import com.swms.locpostingmoduleV1.presentation.commonComposables.ui.theme.darkIndigo
 import com.swms.locpostingmoduleV1.presentation.commonComposables.ui.theme.darkPurpleStuff

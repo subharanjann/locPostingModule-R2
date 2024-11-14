@@ -14,7 +14,7 @@ import android.view.Window
 import androidx.activity.ComponentActivity
 
 import androidx.core.graphics.toColor
-import com.swms.locpostingmodule.R
+import com.mobillor.locpostingmodule.R
 
 
 import java.text.ParseException
