@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "LocPostingModuleRunner"
 include(":app")
-include(":LocPostingModule")
+include(":LocPostingModuleV1")
